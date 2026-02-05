@@ -1,0 +1,7 @@
+[
+  { "id": 1, "key": "name", "title": "ORIGINATOR" },
+  { "id": 2, "key": "client", "title": "CLIENT/LINE" },
+  { "id": 3, "key": "type", "title": "TYPE" },
+  { "id": 4, "key": "status", "title": "STATUS" },
+  { "id": 5, "key": "date", "title": "CREATED" }
+]

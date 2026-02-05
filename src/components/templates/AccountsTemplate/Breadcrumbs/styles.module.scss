@@ -1,0 +1,36 @@
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.separator {
+  margin: 0 4px;
+  color: #6b7280;
+}
+
+.link {
+  color: #9ca3af;
+  text-decoration: none;
+
+  &:hover {
+    color: #e1e2e7;
+  }
+}
+
+.linkActive {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.text {
+  color: #9ca3af;
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+}

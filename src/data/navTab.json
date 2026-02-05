@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Dashboard",
+    "path": "/",
+    "icon": "ri-home-8-line"
+  },
+  {
+    "id": 2,
+    "name": "Accounts",
+    "path": "/accounts",
+    "icon": "ri-database-2-line"
+  },
+   {
+    "id": 3,
+    "name": "Brokers",
+    "path": "/brokers",
+    "icon": "ri-group-line"
+  },
+  {
+    "id": 4,
+    "name": "Submissions",
+    "path": "/submissions",
+    "icon": "ri-file-check-line"
+  },
+    {
+    "id": 5,
+    "name": "Organizations",
+    "path": "/organizations",
+    "icon": "ri-building-line"
+  },
+  {
+    "id": 6,
+    "name": "Goals & Rules",
+    "path": "/goals-and-rules",
+    "icon": "ri-target-line"
+  },
+  {
+    "id": 7,
+    "name": "Admin",
+    "path": "/admin",
+    "icon": "ri-key-2-line"
+  },
+   {
+    "id": 8,
+    "name": "Documents",
+    "path": "/documents",
+    "icon": "ri-file-copy-2-line"
+  },
+  {
+    "id": 9,
+    "name": "Transactions",
+    "path": "/transactions",
+    "icon": "ri-bank-card-line"
+  },
+   {
+    "id": 10,
+    "name": "Transactions",
+    "path": "/transactions",
+    "icon": "ri-bank-card-line"
+  }
+]

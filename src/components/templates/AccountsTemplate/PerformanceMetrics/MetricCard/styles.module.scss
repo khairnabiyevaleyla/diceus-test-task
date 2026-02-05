@@ -1,0 +1,108 @@
+.card {
+  border-radius: 16px;
+  background-color: #1e2233;
+  border: 1px solid #262c3f;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 160px;
+}
+
+.title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e1e2e7;
+}
+
+.dots {
+  display: flex;
+  gap: 6px;
+  margin: 4px 0;
+}
+
+.dotFilled {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3b82f6;
+}
+
+.dotEmpty {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #6b7280;
+  background: transparent;
+}
+
+.valueWrap {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #e1e2e7;
+  line-height: 1.2;
+}
+
+.subtext {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.secondaryLine {
+  margin: 0;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.barRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.barTrack {
+  flex: 0 0 120px;
+  height: 8px;
+  background-color: #262c3f;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  background-color: #3b82f6;
+  border-radius: 4px;
+  transition: width 0.2s ease;
+}
+
+.barLabel {
+  font-size: 13px;
+  color: #e1e2e7;
+  white-space: nowrap;
+}
+
+.cta {
+  margin-top: auto;
+  font-size: 13px;
+  color: #3b82f6;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

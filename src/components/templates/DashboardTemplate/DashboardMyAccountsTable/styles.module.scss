@@ -1,0 +1,203 @@
+.accountInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.accountName {
+  color: #e1e2e7;
+  font-weight: 400;
+}
+
+.accountType {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.premium{
+  color: #60a5fa;
+  font-weight: 500;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-good {
+  background-color:  #3ab979;
+  color: white;
+}
+
+.badge-warning {
+  background-color: #c2a351;
+  color: black;
+}
+
+.badge-danger {
+  background-color: #b93c3b;
+  color: white;
+}
+
+.appetite {
+  color: #e1e2e7;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #343b5d;
+  border-radius: 12px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+   gap: 6px;
+}
+
+.new,
+.pending,
+.approved,
+.rejected,
+.completed,
+.active {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0; 
+}
+
+.new {
+  background-color: #186efd;
+}
+
+.pending {
+  background-color: #C2A351;
+}
+
+.approved {
+  background-color: #3AB979;
+}
+
+.rejected {
+  background-color: #B93C3B;
+}
+
+.completed {
+  background-color: #3AB979;
+}
+
+.active {
+  background-color: #3AB979;
+}
+
+.triageBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #60a5fa;
+  color: #60a5fa;
+  background-color: rgba(96, 165, 250, 0.1);
+}
+
+.winnabilityContainer {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid #60a5fa;
+  background-color: transparent;
+}
+
+.winnabilityDots {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2d3548;
+  border: 1px solid #60a5fa;
+}
+
+.dotActive {
+  background-color: #60a5fa;
+}
+
+.winnabilityLabel {
+  color: #60a5fa;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.tableContainer {
+  border: 1px solid #262c3f;
+  border-radius: 26px;
+  background-color: #1e2233;
+  padding-right: 50px;
+  overflow-x: auto;
+}
+
+.menu {
+  font-size: 18px;
+  border: 1px solid #e1e2e7;
+  border-radius: 100%;
+  color: #e1e2e7;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.tableHeader{
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 16px 40px 0 40px;
+}
+
+@media (max-width: 1024px) {
+  .tableContainer {
+    padding-right: 24px;
+  }
+
+  .tableHeader {
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px 24px 0 24px;
+  }
+
+  .winnabilityContainer {
+    padding: 4px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tableContainer {
+    padding-right: 16px;
+  }
+
+  .tableHeader {
+    padding: 12px 16px 0 16px;
+  }
+
+  .winnabilityLabel {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.card {
+  border: 1px solid #262c3f;
+  border-radius: 26px;
+  background-color: #1e2233;
+
+  &_tabs {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0 40px;
+    p {
+      background-color: #0c0f17;
+      border-radius: 24px;
+      padding: 10px 16px;
+      font-size: 16px;
+    }
+  }
+}

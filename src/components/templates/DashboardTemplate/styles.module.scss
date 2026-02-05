@@ -1,0 +1,30 @@
+.wrapper {
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 100vh; 
+  padding-bottom: 20px;
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #4a5568;
+    border-radius: 4px;
+    
+    &:hover {
+      background: #5a6678;
+    }
+  }
+}
+
+.tableSection{
+  padding-left: 80px;
+  padding-right: 20px;
+  max-width: 1600px;
+  width: 100%;
+}

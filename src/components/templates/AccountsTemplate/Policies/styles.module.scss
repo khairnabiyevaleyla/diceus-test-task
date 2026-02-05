@@ -1,0 +1,31 @@
+.section {
+  margin-top: 32px;
+}
+
+.sectionTitle {
+  margin: 0 0 20px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #e1e2e7;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #262c3f;
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #4a5568;
+    border-radius: 3px;
+  }
+}

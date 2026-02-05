@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Sam Masters",
+    "initials": "SM",
+    "client": "NAMEX Tech Solutions",
+    "line": "Cyber Liability",
+    "type": "Underwriter Referral",
+    "status": "New",
+    "date": "04/16/2025"
+  },
+  {
+    "id": 2,
+    "name": "Annalise Willis",
+    "initials": "AW",
+    "client": "Maritime Logistics Corp",
+    "line": "Marine Cargo",
+    "type": "Email",
+    "status": "Rejected",
+    "date": "04/20/2025"
+  },
+  {
+    "id": 3,
+    "name": "Ana Killian",
+    "initials": "AK",
+    "client": "NorthStar Financial Group",
+    "line": "D&O Liability",
+    "type": "Underwriter Referral",
+    "status": "Pending Review",
+    "date": "04/22/2025"
+  },
+   {
+    "id": 4,
+    "name": "Patrick O'Neal",
+    "initials": "PO",
+    "client": "Greenfield Agriculture Inc",
+    "line": "Crop Insurance",
+    "type": "Underwriter Referral",
+    "status": "Completed",
+    "date": "01/22/2026"
+  },
+    {
+        "id": 5,
+        "name": "Lena Thompson",
+        "initials": "LT",
+        "client": "Summit Construction Co",
+        "line": "Builders Risk",
+        "type": "Email",
+        "status": "New",
+        "date": "02/10/2026"
+    },
+    {
+        "id": 6,
+        "name": "David Ramirez",
+        "initials": "DR",
+        "client": "Pinnacle Energy Ltd",
+        "line": "Environmental Liability",
+        "type": "Underwriter Referral",
+        "status": "Pending Review",
+        "date": "03/05/2026"
+    },
+    {
+        "id": 7,
+        "name": "Sophie Chen",
+        "initials": "SC",
+        "client": "Global Tech Innovations",
+        "line": "Cyber Liability",
+        "type": "Email",
+        "status": "Rejected",
+        "date": "03/15/2026"
+    }
+]

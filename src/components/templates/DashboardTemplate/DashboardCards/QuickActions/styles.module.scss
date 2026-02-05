@@ -1,0 +1,20 @@
+.card {
+  border: 1px solid #262c3f;
+  border-radius: 26px;
+  background-color: #1e2233;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+&_actions{
+  padding: 0 10px;
+  p{
+    background-color: #3B82F6;
+    border-radius: 26px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+}

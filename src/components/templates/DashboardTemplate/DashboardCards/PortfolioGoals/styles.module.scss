@@ -1,0 +1,166 @@
+.card {
+  border: 1px solid #262c3f;
+  border-radius: 26px;
+  background-color: #1e2233;
+  padding: 24px;
+  min-width: 400px;
+}
+
+.goalsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 24px;
+}
+
+.goalItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.goalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.goalTitle {
+  font-size: 11px;
+  font-weight: 500;
+  color: #94a3b8;
+  letter-spacing: 0.5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.targetLabel {
+  font-size: 11px;
+  color: #94a3b8;
+  font-weight: 400;
+}
+
+.barContainer {
+  position: relative;
+  margin-top: 12px;
+}
+
+.indicator {
+  position: absolute;
+  top: -24px;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.indicatorArrow {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid #60a5fa;
+}
+
+.segmentedBar {
+  display: flex;
+  height: 28px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s ease;
+  
+  &:first-child {
+    border-radius: 14px 0 0 14px;
+  }
+  
+  &:last-child {
+    border-radius: 0 14px 14px 0;
+  }
+}
+
+.percentageOnBar {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.status {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 8px;
+  
+  &.good {
+    color: #3ab979;
+  }
+  
+  &.success {
+    color: #3ab979;
+  }
+}
+
+.progressGoal {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.progressBar {
+  position: relative;
+  height: 48px;
+  background-color: #2d3548;
+  border-radius: 24px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.progressFill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: linear-gradient(135deg, #4a74c4 0%, #5985d5 100%);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.5s ease;
+  box-shadow: 0 2px 8px rgba(74, 116, 196, 0.3);
+}
+
+.currentValue {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.targetValue {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e1e2e7;
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+}
+
+.percentageLabel {
+  font-size: 13px;
+  font-weight: 500;
+  color: #94a3b8;
+  text-align: center;
+}

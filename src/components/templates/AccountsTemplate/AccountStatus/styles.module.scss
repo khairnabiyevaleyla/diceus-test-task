@@ -1,0 +1,128 @@
+.section {
+  margin-top: 32px;
+}
+
+.sectionTitle {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.card {
+  border-radius: 12px;
+  background-color: #1a1d2a;
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.steps {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 0;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex: 0 0 auto;
+}
+
+.connector {
+  width: 40px;
+  min-width: 40px;
+  height: 2px;
+  margin-top: 14px;
+  border-top: 2px dashed #4a5568;
+  flex-shrink: 0;
+}
+
+.circleDone {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #2dd087;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  i {
+    font-size: 18px;
+    color: #fff;
+  }
+}
+
+.circlePending {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px dashed #6b7280;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.checkIcon {
+  color: #fff;
+}
+
+.checkIconPending {
+  color: #9ca3af;
+  opacity: 0.6;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .section {
+    margin-top: 24px;
+  }
+
+  .sectionTitle {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .steps {
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+
+  .step {
+    min-width: 72px;
+    gap: 8px;
+  }
+
+  .connector {
+    width: 32px;
+    min-width: 32px;
+    margin-top: 12px;
+  }
+
+  .circleDone,
+  .circlePending {
+    width: 28px;
+    height: 28px;
+  }
+
+  .label {
+    font-size: 14px;
+    white-space: normal;
+    text-align: center;
+  }
+}

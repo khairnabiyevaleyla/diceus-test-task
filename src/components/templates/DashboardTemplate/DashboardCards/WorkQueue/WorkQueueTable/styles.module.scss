@@ -1,0 +1,86 @@
+.flex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.avatar {
+  background: linear-gradient(135deg, #182e74 0%, #1f3a8a 50%, #0f1c4d 100%);
+  border-radius: 100%;
+  font-weight: 500;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #e1e2e7;
+}
+
+.name {
+  color: #e1e2e7;
+}
+
+.line {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.status {
+  font-size: 12px;
+}
+
+.new {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #186efd;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.pending {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #C2A351;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.approved {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #3AB979;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.rejected {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #B93C3B;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.completed {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #3AB979;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.menu {
+    font-size: 18px;
+    border: 1px solid #e1e2e7;
+    border-radius: 100%;
+    color: #e1e2e7;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}

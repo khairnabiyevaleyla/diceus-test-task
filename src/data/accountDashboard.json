@@ -1,0 +1,135 @@
+{
+  "breadcrumbs": [
+    { "label": "Dashboard", "href": "/", "isActive": false },
+    { "label": "Accounts", "href": "/accounts", "isActive": false },
+    { "label": "Maritime Logistics Corp", "isActive": true }
+  ],
+  "accountHeader": {
+    "companyName": "Maritime Logistics Corp",
+    "address": "425 Harbor Boulevard, Suite 300 Seattle, WA 98104",
+    "metaFields": [
+      { "label": "EXISTING ACCOUNT", "value": "54383" },
+      { "label": "BROKER", "value": "Marsh McLennan" },
+      { "label": "UNDERWRITER", "value": "Kate Johnson" }
+    ]
+  },
+  "needsAttention": {
+    "title": "Needs Attention",
+    "items": [
+      {
+        "primary": "Marine Survey Required",
+        "secondary": "Scheduled for 06/12/2025",
+        "ctaLabel": "Review details",
+        "ctaHref": "#"
+      },
+      {
+        "primary": "Loss Control Complete",
+        "secondary": "Last inspection: 02/15/2025",
+        "ctaLabel": "View report",
+        "ctaHref": "#"
+      },
+      {
+        "primary": "Claims Review Required",
+        "secondary": "3 open claims // $245.000 TTL",
+        "ctaLabel": "View claims",
+        "ctaHref": "#"
+      }
+    ]
+  },
+  "performanceMetrics": {
+    "title": "Performance Metrics",
+    "metrics": [
+      {
+        "title": "Winnability",
+        "statusDots": [true, true, true, false],
+        "value": "Very Strong",
+        "ctaLabel": "See all factors",
+        "ctaHref": "#"
+      },
+      {
+        "title": "Loss Ratio",
+        "value": "25%",
+        "subtext": "vs 42% target",
+        "ctaLabel": "View history",
+        "ctaHref": "#"
+      },
+      {
+        "title": "Premium Growth",
+        "value": "12.4%",
+        "subtext": "YoY increase",
+        "secondaryLine": "$123M vs $150M Target",
+        "ctaLabel": "View trend",
+        "ctaHref": "#"
+      },
+      {
+        "title": "Exposure Distribution",
+        "progressBars": [
+          { "label": "Marine Cargo", "percent": 71.4 },
+          { "label": "General Liability", "percent": 20 },
+          { "label": "Workers Comp", "percent": 8.6 }
+        ]
+      }
+    ]
+  },
+  "policies": {
+    "title": "Policies",
+    "policies": [
+      {
+        "policyName": "Marine Cargo",
+        "premium": "$625,000",
+        "effectiveDate": "6/30/2026",
+        "iconClass": "ri-ship-line",
+        "iconColor": "#3b82f6"
+      },
+      {
+        "policyName": "General Liability",
+        "premium": "$175,000",
+        "effectiveDate": "6/30/2026",
+        "iconClass": "ri-shield-check-line",
+        "iconColor": "#22c55e"
+      },
+      {
+        "policyName": "Workers Comp",
+        "premium": "$75,000",
+        "effectiveDate": "---",
+        "iconClass": "ri-settings-3-line",
+        "iconColor": "#a855f7"
+      },
+      {
+        "policyName": "Property",
+        "premium": "$64,829.83",
+        "effectiveDate": "---",
+        "iconClass": "ri-building-line",
+        "iconColor": "#b45309"
+      },
+      {
+        "policyName": "Umbrella",
+        "premium": "$275,000",
+        "effectiveDate": "13/03/2026",
+        "iconClass": "ri-umbrella-line",
+        "iconColor": "#ef4444"
+      }
+    ]
+  },
+  "accountStatus": {
+    "title": "Account Status",
+    "steps": [
+      { "label": "Submitted", "completed": true },
+      { "label": "Review", "completed": true },
+      { "label": "Quote", "completed": true },
+      { "label": "Bind", "completed": true },
+      { "label": "Issue", "completed": true },
+      { "label": "Renew", "completed": false }
+    ]
+  },
+  "complianceDocumentation": {
+    "title": "Compliance & Documentation",
+    "historyLink": { "label": "See history", "href": "#" },
+    "items": [
+      { "label": "KYC verification" },
+      { "label": "Regulatory approval" },
+      { "label": "Required Documentation" },
+      { "label": "Financial Verification" }
+    ]
+  }
+}

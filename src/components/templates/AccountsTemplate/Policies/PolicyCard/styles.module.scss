@@ -1,0 +1,33 @@
+.card {
+  border-radius: 16px;
+  background-color: #1e2233;
+  border: 1px solid #262c3f;
+  padding: 20px;
+  min-width: 180px;
+  flex-shrink: 0;
+}
+
+.icon {
+  margin-bottom: 12px;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.name {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #e1e2e7;
+}
+
+.premium,
+.effDate {
+  margin: 0;
+  font-size: 13px;
+  color: #9ca3af;
+  line-height: 1.4;
+}
+
+.effDate {
+  margin-top: 4px;
+}
